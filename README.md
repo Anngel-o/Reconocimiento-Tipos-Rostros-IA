@@ -14,6 +14,11 @@ Sistema de reconocimiento de formas de rostro utilizando redes neuronales convol
 - Python 3.12 o superior
 - pip (gestor de paquetes Python)
 
+## Anexos
+Dataset a Utilizar: https://www.kaggle.com/datasets/niten19/face-shape-dataset/data
+
+Red Neuronal Entrenada: https://colab.research.google.com/drive/1xAFoak3Ahf3f_gEDJbF6YZrgITDEN0Xm?usp=sharing
+
 ## Instalación
 
 ```bash

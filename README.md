@@ -9,6 +9,8 @@ Sistema de reconocimiento de formas de rostro utilizando redes neuronales convol
 - Interfaz gráfica intuitiva con Tkinter
 - Muestra resultados con porcentaje de confianza
 - Soporta formatos JPG, JPEG y PNG
+<img src="https://github.com/user-attachments/assets/0492515d-086c-4ceb-a397-cea2fac377c7" width="400">
+
 
 ## Requisitos del sistema
 - Python 3.12 o superior

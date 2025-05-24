@@ -11,13 +11,29 @@ Sistema de reconocimiento de formas de rostro utilizando redes neuronales convol
 - Soporta formatos JPG, JPEG y PNG
 
 ## Requisitos del sistema
-- Python 3.6 o superior
+- Python 3.12 o superior
 - pip (gestor de paquetes Python)
-- 4GB de RAM mínimo (recomendado 8GB para mejor rendimiento)
 
 ## Instalación
 
-### 1. Clonar el repositorio
 ```bash
+# 1. Clonar el repositorio
 git clone https://github.com/tu-usuario/face-shape-recognition.git
 cd face-shape-recognition
+
+# 2. Crear entorno virtual
+**Windows:**
+cmd
+python -m venv venv
+.\venv\Scripts\activate
+
+**macOS/Linux:**
+bash
+python3 -m venv venv
+source venv/bin/activate
+
+# 3. Instalar dependencias
+pip install tensorflow pillow numpy opencv-python tk
+
+# 4. Ejecución
+python interfaz3.py

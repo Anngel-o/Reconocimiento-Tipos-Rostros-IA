@@ -16,7 +16,7 @@ class FaceRecognitionGUI:
         
         # Cargar el modelo de TensorFlow
         try:
-            self.model = load_model('face_shape_model(2).h5')
+            self.model = load_model('face_shape_model.h5')
             self.class_names = ['Corazón', 'Ovalada', 'Oblonga', 'Redonda', 'Cuadrada']  # Ajusta según tus clases
         except Exception as e:
             messagebox.showerror("Error", f"No se pudo cargar el modelo: {str(e)}")

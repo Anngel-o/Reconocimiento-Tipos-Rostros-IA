@@ -1,11 +1,23 @@
-## Anexos
+# Face Shape Recognition System
 
-Dataset utilizado: https://www.kaggle.com/datasets/niten19/face-shape-dataset/data
-![dataset-cover](https://github.com/user-attachments/assets/900f2e4c-672b-4ea6-8565-ea0c7ba8b455)
+Sistema de reconocimiento de formas de rostro utilizando redes neuronales convolucionales (CNN) con interfaz gráfica en Python.
 
+![Demo Interface](https://github.com/user-attachments/assets/900f2e4c-672b-4ea6-8565-ea0c7ba8b455)
 
-Modelo en colab:
-https://colab.research.google.com/drive/1xAFoak3Ahf3f_gEDJbF6YZrgITDEN0Xm?usp=sharing
-![Untitled](https://github.com/user-attachments/assets/1dec7b2c-6b43-41bd-a09c-498b8cd41403)
-![Untitled-1](https://github.com/user-attachments/assets/09eebf6f-4e06-45b9-960b-38dd7458e087)
+## Características principales
+- Clasificación de formas de rostro en 5 categorías: Corazón, Ovalada, Oblonga, Redonda y Cuadrada
+- Interfaz gráfica intuitiva con Tkinter
+- Muestra resultados con porcentaje de confianza
+- Soporta formatos JPG, JPEG y PNG
 
+## Requisitos del sistema
+- Python 3.6 o superior
+- pip (gestor de paquetes Python)
+- 4GB de RAM mínimo (recomendado 8GB para mejor rendimiento)
+
+## Instalación
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/tu-usuario/face-shape-recognition.git
+cd face-shape-recognition
